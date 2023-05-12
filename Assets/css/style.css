@@ -1,0 +1,401 @@
+@font-face {
+    font-family: 'rajdhani';
+    src: url(../css/fonts/Rajdhani-Medium.ttf);
+}
+
+:root {
+    --yellow-color: #FFFF00;
+    --yellow-light: #f8f184;
+    --blue-color: #19587D;
+    --red-color: #B11313;
+    --black-color: #0D0E09;
+    --gradient-white: #eddebf67;
+    --gradient-blue: #19587d67;
+    --gradient-white: #eddebf67;
+    --gradient-red: #89000978;
+    --: #C4C4C4;
+    --black-color: #000000;
+    --white-color: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.CTA {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    font-family: 'rajdhani';
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 40px;
+    padding-top: 10px;
+    margin: 20px;
+    color: white;
+    background: linear-gradient( 80deg, var(--gradient-white), var(--gradient-red));
+    box-shadow: var(--black-color) 15px 15px 60px;
+}
+
+.btn:hover {
+    filter: invert(96%) sepia(89%) saturate(796%) hue-rotate(279deg)brightness(95%) contrast(109%);
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'SpaceGrotesk';
+    font-weight: 300;
+}
+
+
+/* design de la navigation */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+nav ul a {
+    color: gray;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "rajdhani";
+}
+
+nav ul a:hover {
+    color: yellow
+}
+
+
+/*  design de la section hero  */
+
+#hero {
+    background-image: url(../Assets/Illustrations/Bathome1.png);
+    height: 800px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: #19587D;
+    background-size: cover;
+    width: 100%;
+}
+
+#hero h2 {
+    margin: 20px 0;
+    margin-top: 20px;
+    font-size: 23px;
+    font-family: 'SpaceGroteskbold';
+}
+
+#hero .flèche {
+    display: block;
+    margin: 0 auto;
+    margin-top: 285px;
+}
+
+.scroll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    right: 90px;
+    top: 230px;
+}
+
+.scroll .social {
+    margin-top: 15px;
+}
+
+.scroll:hover {
+    filter: invert(4%) sepia(100%) saturate(1680%) hue-rotate(352deg);
+}
+
+.jeans:hover {
+    filter: invert(4%) sepia(100%) saturate(1680%) hue-rotate(352deg);
+}
+
+.container.alliés.bad.img {
+    position: absolute;
+    top: 0;
+    right: 150px;
+    bottom: 0;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 150px;
+    font-size: 18px;
+}
+
+
+/* design des sections*/
+
+.batman,
+.partenaires,
+.alliés-personnages {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titre {
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: 'rajdhani';
+    margin-bottom: 20px;
+}
+
+section {
+    width: 90%;
+    margin-top: 40px
+}
+
+.description {
+    margin-bottom: 40px;
+    text-align: justify;
+    font-size: 20px;
+    width: 90%;
+}
+
+.h2 {
+    font-family: 'SpaceGroteskbold';
+    font-size: 12px;
+    font-weight: 300;
+    text-align: justify;
+    padding: 30px;
+    margin-top: 10px;
+}
+
+.name {
+    text-align: center;
+}
+
+.slider {
+    display: flex;
+    width: 60%;
+    margin: 40px auto;
+}
+
+.slider.img {
+    width: ;
+}
+
+.slider-tag {
+    padding: 15px;
+    background: linear-gradient( 80deg, var(--gradient-white), var(--gradient-blue));
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.ad {
+    font-size: 14px;
+}
+
+.pad {
+    font-size: 14px;
+}
+
+.number {
+    color: #FFFF00;
+}
+
+.bad-boy {
+    margin-left: 80%;
+    margin-bottom: -10%;
+}
+
+.right {
+    position: relative;
+    background-color: transparent;
+    margin-left: 85%;
+    top: -190px;
+}
+
+.left {
+    position: relative;
+    background-color: transparent;
+    top: 175px;
+}
+
+.form {
+    background: linear-gradient( 80deg, var(--gradient-white), var(--gradient-blue));
+    text-align: justify;
+    width: 150%;
+    height: 550px;
+    padding-left: 30%;
+    margin: 0 auto;
+    border: none;
+}
+
+.checkbox {
+    width: 1%;
+    height: 15px;
+    margin-bottom: 20px;
+}
+
+.mail {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid rgb(2, 11, 94);
+    background-color: transparent;
+    padding-bottom: 10px;
+    width: 60%;
+}
+
+.hit {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid rgb(2, 11, 94);
+    background-color: transparent;
+    padding-bottom: 10px;
+    width: 60%;
+}
+
+.btn-group {
+    background-color: transparent;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40%;
+}
+
+.rad {
+    opacity: 0;
+}
+
+.smack {
+    cursor: pointer;
+    padding: 10px;
+    border: 2px solid;
+    border-image: linear-gradient( 69deg, var(--gradient-red), var(--gradient-blue))1;
+    font-size: 20px;
+}
+
+.sub {
+    margin: 25px auto;
+    margin-left: 20%;
+    padding: 15px 0;
+    width: 230px;
+    cursor: pointer;
+    text-align: center;
+    background: linear-gradient( 80deg, var(--gradient-red), var(--gradient-white));
+}
+
+.maid {
+    font-size: 22px;
+    margin-bottom: 32px;
+    padding-left: 10%;
+}
+
+.titles {
+    display: block;
+    margin: 20px 0;
+}
+
+.icons {
+    transform: rotate(90deg);
+    width: 15px;
+    margin-bottom: -2px;
+}
+
+.news {
+    margin: 15px 0;
+    border-bottom: 2px solid rgb(2, 11, 94);
+    width: 60%;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+}
+
+.choice {
+    margin: 15px 0;
+    border-bottom: 2px solid rgb(2, 11, 94);
+    width: 60%;
+    text-align: justify;
+    padding-top: -15px;
+    color: rgb(255, 255, 255);
+}
+
+.joy {
+    color: rgb(255, 255, 255);
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+.citations {
+    margin-left: 90px width: 60px;
+    text-align: center
+}
+
+.author {
+    padding-top: 10px;
+    font-size: 14px;
+    font-family: 'rajdhani';
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+
+.G-close {
+    float: right;
+    margin-top: -80px;
+}
+
+
+/*design du footer*/
+
+.logo {
+    margin-top: 20px;
+}
+
+.text-F {
+    text-align: center;
+    font-size: 14px;
+}
+
+.social-f {
+    text-align: center;
+    margin: 30 0;
+}
+
+.picture {
+    padding: 10px;
+}
+
+.pain,
+.war,
+.shine {
+    border: 3px solid #BCBBBD;
+    top: 132px;
+    position: relative;
+    width: 90%;
+    left: 102px;
+    right: 102px;
+}
+
+.shine {
+    border-top: none;
+}
+
+.war {
+    border-bottom: none;
+}
