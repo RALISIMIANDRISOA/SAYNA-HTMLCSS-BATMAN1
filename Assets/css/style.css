@@ -82,7 +82,7 @@ nav ul a:hover {
 /*  design de la section hero  */
 
 #hero {
-    background-image: url(../Assets/Illustrations/Bathome1.png);
+    background-image: url(../Illustrations/Bathome1.png);
     height: 800px;
     background-position: top center;
     background-repeat: no-repeat;
